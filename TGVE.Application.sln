@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TGVE.Database", "TGVE.Database\TGVE.Database.sqlproj", "{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56} = {1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrapeVineExperinceAPI", "GrapeVineExperinceAPI\GrapeVineExperinceAPI.csproj", "{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrapeVineUI", "GrapeVineUI\GrapeVineUI.csproj", "{526B4303-D272-4EC2-94A7-2FE8BE09FEFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B93B5A-2BEB-4866-8DC5-0733C9BA3C8C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF186F0-B8E1-43F3-9AAA-87DC715C4D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526B4303-D272-4EC2-94A7-2FE8BE09FEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526B4303-D272-4EC2-94A7-2FE8BE09FEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526B4303-D272-4EC2-94A7-2FE8BE09FEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526B4303-D272-4EC2-94A7-2FE8BE09FEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38ED41E5-4E1A-4904-ADF3-B1F1D985776A}
+	EndGlobalSection
+EndGlobal
